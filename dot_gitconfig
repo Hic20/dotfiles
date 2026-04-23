@@ -1,0 +1,28 @@
+[user]
+	name = Lars Heule
+	email = lars.heule@oerlikon.com
+[branch]
+	sort = -committerdate
+[color "status"]
+	added = green bold
+	changed = yellow bold
+	untracked = red bold
+[alias]
+	c = commit
+	cd = commit --amend
+	cm = commit -m
+	#############
+	cl = clone
+	#############
+	cp = cherry-pick
+	#############
+	ps = push
+	psf = push -f
+	#############
+	pl = pull
+	pb = pull --rebase
+	#############
+[pull]
+	rebase = true
+[core]
+	sshCommand = C:/Windows/System32/OpenSSH/ssh.exe
